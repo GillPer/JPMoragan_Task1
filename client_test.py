@@ -19,7 +19,7 @@ class ClientTest(unittest.TestCase):
       self.assertEqual(getDataPoint(i),(i['stock'],i['bid_price'],i['ask_price'],(i['bid_price']+i['ask_price']) / 2))
 
 
-  """ ------------ Add more unit tests ------------ """
+  
 
 
 
